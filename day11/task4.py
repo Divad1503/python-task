@@ -1,5 +1,9 @@
-a = int(input("What is the number? ")) + 1
-c = 1
-for i in range(1,a):
-    c = c * i
-print(c)
+n = int(input("What is the number? ")) + 1
+s = 0
+f = 1
+for k in range(n):
+    if k == 0:
+        k = 1
+    f = f * k 
+    s = s + (1 / f)
+print(s)

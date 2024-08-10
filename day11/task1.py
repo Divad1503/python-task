@@ -1,4 +1,4 @@
-jahr = int(input("Welches Jahr ist es? "))
+jahr = int(input("Which year is it? "))
 schaltjahr = jahr % 4
 a = jahr % 400
 b = jahr % 100
