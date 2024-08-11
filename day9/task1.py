@@ -1,5 +1,4 @@
 int_list = [979,2011,9,366,1721,299,675,1456]
-#def number():
 
 
 for h in range(len(int_list)):
