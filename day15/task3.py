@@ -11,15 +11,17 @@ def max(liste):
             a = i
     return a
 
-def mid(liste):
+def mean(liste):
     sum = 0
     for i in range(len(liste)):
         sum = sum + liste[0+i]
     amount = len(liste)
-    mid = sum / amount
-    return mid
+    mean_num = sum / amount
+    return mean_num
+
+
 numbers = [8,5,12,3,7]
 min_number = min(numbers)
 max_number = max(numbers)
-mid_number = mid(numbers)
-print(min_number,max_number,mid_number)
+mean_number = mean(numbers)
+print(min_number,max_number,mean_number)
