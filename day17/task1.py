@@ -1,4 +1,4 @@
-a = input("What text do you need to decrypt? ")
+a = input("What text do you need to encrypt? ")
 def coding(text):
     result = []
     for h in text:
@@ -9,7 +9,7 @@ def coding(text):
         else:
             result.append(h)
             continue
-        letter = chr((ord(h) - c + 13) % 26 + c)
+        letter = chr((ord(h) - c + 13)% 26 + c)
         result.append(letter)
     return ''.join(result)
 end = coding(a)
